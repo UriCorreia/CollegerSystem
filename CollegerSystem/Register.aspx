@@ -29,6 +29,12 @@
 
             <asp:Button ID="btncadastrar" runat="server" Text="Cadastrar" OnClick="btncadastrar_Click"/>
 
+            <br />
+            <br />
+            
+            <asp:gridview ID="GridBolsistas" runat="server"></asp:gridview>
+
+
         </div>
     </form>
 </body>
